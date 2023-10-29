@@ -1,0 +1,17 @@
+.footer {
+    background-color: var(--secondary1);
+    
+    .navbar {
+        position: relative;
+        padding: 0 !important;
+        background-color: transparent;
+    }
+
+    .nav-link {
+        color: white !important;
+    }
+
+    .footer-text {
+        color: white;
+    }
+}
