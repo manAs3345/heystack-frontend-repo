@@ -1,0 +1,51 @@
+.navbar {
+    background-color: var(--primary);
+
+    .nav-link {
+        color: white;
+        
+        &:hover {
+            font-weight: 500;
+        }
+
+        &:hover, &:active, &:focus {
+            color: white;
+        }
+    }
+
+    &.no-background {
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+
+        .nav-link {
+            color: black;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #basic-navbar-nav {
+        justify-content: end;
+    }
+
+    .nav-link {
+        margin-left: 2.5rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .no-background {
+        position: relative !important;
+    }
+    
+    .navbar-expand {
+        #basic-navbar-nav {
+            justify-content: end;
+        }
+    }
+}
