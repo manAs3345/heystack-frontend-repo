@@ -1,0 +1,27 @@
+h1 {
+  font-size: 80px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("heroImage.jpeg");
+  height: 1080px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: relative;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 30%;
+  font-size: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 70px; /* Add space below the paragraph text */
+}

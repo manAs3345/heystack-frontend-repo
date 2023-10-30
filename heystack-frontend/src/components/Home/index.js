@@ -1,11 +1,12 @@
 import React from "react";
+import Hero from "../Hero/index.js";
 import "./style.css";
 
 const Home = () => {
 
     return (
         <div className="home">
-            Home
+           <Hero/>
         </div>
     )
 }
