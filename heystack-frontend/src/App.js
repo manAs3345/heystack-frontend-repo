@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+import Routing from './components/Routing/index.js';
+import NavBar from './components/NavBar/index.js';
+import Footer from './components/Footer/index.js';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Banner from './components/Banner';
-import SampleBanner from './assets/images/sample-banner.jpg';
+
 function App() {
   return (
-    <Banner bannerImageName={SampleBanner} bannerText="About Us"/>
+    <div className="App">
+      <NavBar noBackground={true} />
+      <Routing />
+      <Footer />
+    </div>
   );
 }
 
