@@ -17,8 +17,8 @@ const NavBar = (props) => {
       case 'About':
         navigate('/about');
         break;
-      case 'Service':
-        navigate('/service');
+      case 'Services':
+        navigate('/services');
         break;
       case 'Contact':
         navigate('/contact');
@@ -47,7 +47,7 @@ const NavBar = (props) => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link onClick={() => navigation('Home')}>Home</Nav.Link>
-          <Nav.Link onClick={() => navigation('Service')}>Service</Nav.Link>
+          <Nav.Link onClick={() => navigation('Services')}>Services</Nav.Link>
           <Nav.Link onClick={() => navigation('About')}>About Us</Nav.Link>
           <Nav.Link onClick={() => navigation('Contact')}>Contact</Nav.Link>
         </Nav>
