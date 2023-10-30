@@ -1,0 +1,12 @@
+.heystack-button {
+    position: relative;
+    text-align: center;
+    padding: 10px 20px !important;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.heystack-button p {
+    margin: 0;
+}
