@@ -1,0 +1,20 @@
+.icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 10px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.instagram {
+    background-image: url('../../assets/images/instagram.png');
+}
+
+.facebook {
+    background-image: url('../../assets/images/facebook.png');
+}
+
+.twitter {
+    background-image: url('../../assets/images/twitter.png');
+}
