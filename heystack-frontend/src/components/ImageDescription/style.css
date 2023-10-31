@@ -1,0 +1,34 @@
+.image_description > div > p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.image_description > img {
+    background: var(--color-gray);
+    position: relative;
+    overflow: visible;
+}
+
+.image_description > .image-right { margin-left: 5.5vw; }
+.image_description > .image-left { margin-right: 6.5vw; }
+
+.image_description > .image-right::after {
+    content: '';
+    position: absolute;
+        bottom: -15px;
+        right: -15px;
+    width: 120px;
+    height: 120px;
+    background: var(--color-secondary2);
+    z-index: -1;
+}
+.image_description > .image-left::after {
+    content: '';
+    position: absolute;
+        bottom: -15px;
+        left: -15px;
+    width: 120px;
+    height: 120px;
+    background: var(--color-secondary2);
+    z-index: -1;
+}

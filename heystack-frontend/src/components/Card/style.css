@@ -1,0 +1,19 @@
+.card {
+    flex: 1;
+    text-align: left;
+    aspect-ratio: 1;
+}
+
+.card > .content {
+    margin: 30px 40px;
+}
+
+.card h3 {
+    margin: 18px 0;
+}
+
+.card h3,
+.card p {
+    color: var(--color-gray);
+
+}
