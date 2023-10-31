@@ -35,7 +35,7 @@ const NavBar = (props) => {
       className={noBackground && currentPath === '/' ? "section no-background" : "section"
         + (noCollapse ? " navbar-expand" : "")}
     >
-      <Navbar.Brand href="#home">
+      <Navbar.Brand onClick={() => navigation('Home')}>
         <img
           src={Logo}
           alt="Logo"
