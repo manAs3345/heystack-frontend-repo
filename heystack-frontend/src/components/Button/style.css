@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .heystack-button {
     position: relative;
     text-align: center;
@@ -9,4 +10,29 @@
 
 .heystack-button p {
     margin: 0 !important;
+=======
+.heystack_btn {
+    padding: 16px 24px;
+    border-radius: 3px;
+    width: fit-content;
+}
+.heystack_btn:hover {
+    text-decoration: none;
+}
+
+.heystack_btn-primary {
+    background: var(--color-primary);
+    color: var(--color-black);
+}
+.heystack_btn-primary:hover {
+    color: var(--color-black);
+}
+
+.heystack_btn-secondary {
+    background: var(--color-secondary2);
+    color: var(--color-white);
+}
+.heystack_btn-secondary:hover {
+    color: var(--color-white);
+>>>>>>> 2136c7926d32e3d346e3d1a0d3d32aa5523c8f68
 }

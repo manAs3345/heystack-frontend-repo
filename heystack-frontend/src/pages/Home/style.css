@@ -1,0 +1,36 @@
+
+/* Services link section container */
+.services-link_container {
+    text-align: center;
+    background: white;
+}
+
+.services-link_container > div > p {
+    max-width: 600px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.services_cards-container > * {
+    max-width: 400px;
+}
+
+.services_cards-container > *:nth-child(2) {
+    margin: 0 10px;
+}
+
+.services_cards-container > img {
+    background: var(--color-gray);
+    flex: 1;
+}
+
+/* Partners section */
+.partners-container {
+    gap: 10px;
+}
+
+.partners-container > img {
+    min-width: 280px;
+    aspect-ratio: 1;
+    background: var(--color-gray);
+}
